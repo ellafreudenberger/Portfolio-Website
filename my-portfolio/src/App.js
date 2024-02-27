@@ -4,12 +4,14 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 import ShapeArt from './components/shapeArt';
+import Tulip from './components/tulip';
 
 
 const App = () => {
   return (
       <div className="my-portfolio">
         <ShapeArt />
+        <Tulip />
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />

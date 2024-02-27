@@ -12,7 +12,7 @@ body {
   width: 30px; /* Adjust size as needed */
   height: 30px; /* Adjust size as needed */
   border-radius: 50%; /* Make it a circle */
-  background-color: rgb(5, 5, 112);
+  background-color: rgb(165, 2, 2);
   top: 500px; /* Adjust top position as needed */
   left: 100px; /* Adjust left position as needed */
 }
@@ -70,10 +70,10 @@ body {
 .rectangleA {
   width: 5px; /* Adjust width as needed */
   height: 170px; /* Adjust height as needed */
-  background-color: rgb(5, 5, 112); /* Adjust color as needed */
+  background-color: rgb(46, 114, 73); /* Adjust color as needed */
   position: absolute; /* Positioning for thin rectangle */
   top: 535px; /* Adjust top position as needed */
-  left: 115px; /* Adjust left position as needed */
+  left: 112px; /* Adjust left position as needed */
 }
 
 
@@ -85,7 +85,7 @@ body {
   width: 30px; /* Adjust size as needed */
   height: 30px; /* Adjust size as needed */
   border-radius: 50%; /* Make it a circle */
-  background-color: rgb(5, 5, 112);
+  background-color:rgb(63, 1, 98);
   top: 500px; /* Adjust top position as needed */
   left: 1300px; /* Adjust left position as needed */
 }
@@ -94,7 +94,7 @@ body {
   width: 50px; /* Adjust size as needed */
   height: 20px; /* Adjust size as needed */
   border-radius: 50%; /* Make it a circle */
-  background-color: rgb(5, 5, 112);
+  background-color: rgb(235, 112, 81);
   top: 490px; /* Adjust top position as needed */
   left: 1335px; /* Adjust left position as needed */
   transform: rotate(160deg);
@@ -104,7 +104,7 @@ body {
   width: 50px; /* Adjust size as needed */
   height: 20px; /* Adjust size as needed */
   border-radius: 50%; /* Make it a circle */
-  background-color: rgb(5, 5, 112);
+  background-color: rgb(235, 112, 81);
   top: 540px; /* Adjust top position as needed */
   left: 1320px; /* Adjust left position as needed */
   transform: rotate(45deg);
@@ -114,7 +114,7 @@ body {
   width: 50px; /* Adjust size as needed */
   height: 20px; /* Adjust size as needed */
   border-radius: 50%; /* Make it a circle */
-  background-color: rgb(5, 5, 112);
+  background-color: rgb(235, 112, 81);
   top: 540px; /* Adjust top position as needed */
   left: 1260px; /* Adjust left position as needed */
   transform: rotate(-45deg);
@@ -124,7 +124,7 @@ body {
   width: 50px; /* Adjust size as needed */
   height: 20px; /* Adjust size as needed */
   border-radius: 50%; /* Make it a circle */
-  background-color: rgb(5, 5, 112);
+  background-color: rgb(235, 112, 81);
   top: 485px; /* Adjust top position as needed */
   left: 1250px; /* Adjust left position as needed */
   transform: rotate(30deg);
@@ -134,7 +134,7 @@ body {
   width: 50px; /* Adjust size as needed */
   height: 20px; /* Adjust size as needed */
   border-radius: 50%; /* Make it a circle */
-  background-color: rgb(5, 5, 112);
+  background-color: rgb(235, 112, 81);
   top: 460px; /* Adjust top position as needed */
   left: 1300px; /* Adjust left position as needed */
   transform: rotate(105deg);
@@ -143,7 +143,7 @@ body {
 .rectangleB {
   width: 5px; /* Adjust width as needed */
   height: 170px; /* Adjust height as needed */
-  background-color: rgb(5, 5, 112); /* Adjust color as needed */
+  background-color: rgb(46, 114, 73); /* Adjust color as needed */
   position: absolute; /* Positioning for thin rectangle */
   top: 535px; /* Adjust top position as needed */
   left: 1315px; /* Adjust left position as needed */
