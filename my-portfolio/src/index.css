@@ -4,9 +4,6 @@ body {
     padding: 0; /* Fix nav border */
 }
 
-.shape {
-  position: absolute;
-}
 
 .circleA {
   width: 30px; /* Adjust size as needed */
@@ -147,4 +144,109 @@ body {
   position: absolute; /* Positioning for thin rectangle */
   top: 535px; /* Adjust top position as needed */
   left: 1315px; /* Adjust left position as needed */
+}
+
+.rounded-squareA {
+  width: 75px; /* Adjust width as needed */
+  height: 175px; /* Adjust height as needed */
+  background-color: #ff69b4; /* Pink */
+  position: relative;
+  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+  border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
+  border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
+  border-top-left-radius: 0;
+  top: 300px;
+  left: 400px;
+}
+
+.rounded-squareB {
+  width: 75px; /* Adjust width as needed */
+  height: 175px; /* Adjust height as needed */
+  background-color: #ff69b4; /* Pink */
+  position: relative;
+  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+  border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
+  border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
+  border-top-right-radius: 0;
+  top: 125px;
+  left: 479px;
+}
+
+.rectangleC {
+  width: 5px; /* Adjust width as needed */
+  height: 230px; /* Adjust height as needed */
+  background-color: rgb(46, 114, 73); /* Adjust color as needed */
+  position: absolute; /* Positioning for thin rectangle */
+  top: 480px; /* Adjust top position as needed */
+  left: 475px; /* Adjust left position as needed */
+}
+
+.rounded-squareC {
+  width: 75px; /* Adjust width as needed */
+  height: 175px; /* Adjust height as needed */
+  background-color: #ff69b4; /* Pink */
+  position: relative;
+  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+  border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
+  border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
+  border-top-left-radius: 0;
+  top: -55px;
+  left: 900px;
+}
+
+.rounded-squareD {
+  width: 75px; /* Adjust width as needed */
+  height: 175px; /* Adjust height as needed */
+  background-color: #ff69b4; /* Pink */
+  position: relative;
+  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+  border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
+  border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
+  border-top-right-radius: 0;
+  top: -230px;
+  left: 979px;
+}
+
+.rectangleD {
+  width: 5px; /* Adjust width as needed */
+  height: 235px; /* Adjust height as needed */
+  background-color: rgb(46, 114, 73); /* Adjust color as needed */
+  position: absolute; /* Positioning for thin rectangle */
+  top: 475px; /* Adjust top position as needed */
+  left: 975px; /* Adjust left position as needed */
+}
+
+.rounded-squareE {
+  width: 100px; /* Adjust width as needed */
+  height: 280px; /* Adjust height as needed */
+  background-color: #ff69b4; /* Pink */
+  position: relative;
+  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+  border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
+  border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
+  border-top-left-radius: 0;
+  top: -620px;
+  left: 650px;
+}
+
+.rounded-squareF {
+  width: 100px; /* Adjust width as needed */
+  height: 280px; /* Adjust height as needed */
+  background-color: #ff69b4; /* Pink */
+  position: relative;
+  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+  border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
+  border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
+  border-top-right-radius: 0;
+  top: -900px;
+  left: 759px;
+}
+
+.rectangleE {
+  width: 7px; /* Adjust width as needed */
+  height: 340px; /* Adjust height as needed */
+  background-color: rgb(46, 114, 73); /* Adjust color as needed */
+  position: absolute; /* Positioning for thin rectangle */
+  top: 370px; /* Adjust top position as needed */
+  left: 750px; /* Adjust left position as needed */
 }
