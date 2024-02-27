@@ -1,8 +1,12 @@
 nav {
-    position: fixed;
-   /* background-image: linear-gradient(to right, rgb(250, 238, 238), rgb(253, 252, 240),rgb(252, 243, 245), rgb(250, 241, 252), rgb(244, 255, 248),rgb(243, 243, 251)); */
+    display: flex;
+    justify-content: center;
+  /* background-image: linear-gradient(to right, rgb(250, 238, 238), rgb(253, 252, 240),rgb(252, 243, 245), rgb(250, 241, 252), rgb(244, 255, 248),rgb(243, 243, 251)); */
     border: none;
-    width: 100%; /* Fix nav border */
+    width: 100%; 
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
   }
   
   ul {

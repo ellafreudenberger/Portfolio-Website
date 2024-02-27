@@ -2,16 +2,25 @@ body {
     cursor: url(./cursor/paint.png), auto; 
     margin: 0; /* Fix nav border */
     padding: 0; /* Fix nav border */
+    position: relative; /* Ensure positioning context for absolute positioning */
 }
 
 .footer {
   bottom: 0;
   width: 100%;
-  padding: 20px; /* Adjust padding as needed */
+  position: relative;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+   .shape {
+    margin: -600px; 
+  }
 }
 
 .shape-container {
   display: flex;
+  justify-content: center;
 }
 
 .shape {
@@ -251,4 +260,24 @@ body {
   position: absolute; /* Positioning for thin rectangle */
   top: 365px; /* Adjust top position as needed */
   left: 751px; /* Adjust left position as needed */
+}
+
+.home-page {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.profile-pic {
+margin-top: 50px;
+height: 400px;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .profile-pic {
+   margin-bottom: 600px;/* Adjust the scale factor as needed */
+ }
 }

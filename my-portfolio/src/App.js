@@ -9,13 +9,13 @@ import ShapeArt from './components/shapeArt';
 const App = () => {
   return (
       <div className="my-portfolio">
-        <ShapeArt />
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<PageNotFound />} />
           </Routes>
+          <ShapeArt />
       </div>
   );
 }
