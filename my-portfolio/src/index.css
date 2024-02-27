@@ -1,0 +1,5 @@
+body { 
+    cursor: url(./cursor/paint.png), auto; 
+    margin: 0; /* Fix nav border */
+    padding: 0; /* Fix nav border */
+  }
