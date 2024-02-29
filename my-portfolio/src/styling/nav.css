@@ -1,24 +1,19 @@
 nav {
     display: flex;
-    justify-content: center;
   /* background-image: linear-gradient(to right, rgb(250, 238, 238), rgb(253, 252, 240),rgb(252, 243, 245), rgb(250, 241, 252), rgb(244, 255, 248),rgb(243, 243, 251)); */
     border: none;
     width: 100%; 
-    margin-bottom: 20px;
+    margin: 20px;
     top: 0;
-    left: 0;
   }
   
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 45px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
   }
   
   li {
@@ -27,7 +22,7 @@ nav {
   
   li a {
     display: inline-block;
-    padding: 100px 60px;
+    padding: 10px 30px;
     color: black; 
     text-decoration: none;
   }
@@ -39,10 +34,19 @@ nav {
     background-clip: text; /* Apply gradient to text only */
     color: transparent; /* Hide text color */
   }
-  
-/* Media query for small screens */
+
+
+/* Media queries for adjusting font size based on screen width */
 @media (max-width: 768px) {
     ul {
-      flex-direction: column; /* Change to vertical layout */
+        font-size: 50px; 
+        flex-direction: column;
+        align-items: center;
     }
-  }
+
+    li {
+        margin-bottom: 100px; 
+        text-align: center;
+        margin-left: 100%;
+    }
+}

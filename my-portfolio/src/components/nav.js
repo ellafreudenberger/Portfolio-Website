@@ -5,9 +5,9 @@ function PortfolioNav () {
     return (
        <nav>
          <ul>
-             <li><a href="/">Home.</a></li>
-             <li><a href="/projects">Work.</a></li>
-             <li><a href="/contact">Contact.</a></li>
+             <li><a href="/">home</a></li>
+             <li><a href="/projects">work</a></li>
+             <li><a href="/contact">contact</a></li>
           </ul>
        </nav>
     );

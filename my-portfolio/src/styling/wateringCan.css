@@ -1,5 +1,11 @@
+.watering-can {
+    display: flex;
+    position: relative;
+}
+
 .button-container {
     position: relative;
+    left: 500px;
 }
 
 .cylinder-button {
@@ -36,3 +42,4 @@
     border-right-color: #000; 
     transform: rotate(140deg)
 }
+
