@@ -28,145 +28,145 @@ body {
 }
 
 .circleA {
-  width: 30px; /* Adjust size as needed */
-  height: 30px; /* Adjust size as needed */
+  width: 30px; 
+  height: 30px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 500px; /* Adjust top position as needed */
-  left: 100px; /* Adjust left position as needed */
+  top: 500px; 
+  left: 100px; 
 }
 
 .ovalA {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 490px; /* Adjust top position as needed */
-  left: 135px; /* Adjust left position as needed */
+  top: 490px; 
+  left: 135px; 
   transform: rotate(160deg);
 }
 
 .ovalB {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px;
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 540px; /* Adjust top position as needed */
-  left: 120px; /* Adjust left position as needed */
+  top: 540px; 
+  left: 120px; 
   transform: rotate(45deg);
 }
 
 .ovalC {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 540px; /* Adjust top position as needed */
-  left: 60px; /* Adjust left position as needed */
+  top: 540px; 
+  left: 60px;
   transform: rotate(-45deg);
 }
 
 .ovalD {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 485px; /* Adjust top position as needed */
-  left: 50px; /* Adjust left position as needed */
+  top: 485px; 
+  left: 50px; 
   transform: rotate(30deg);
 }
 
 .ovalE {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 460px; /* Adjust top position as needed */
-  left: 100px; /* Adjust left position as needed */
+  top: 460px; 
+  left: 100px; 
   transform: rotate(105deg);
 }
 
 .rectangleA {
-  width: 5px; /* Adjust width as needed */
-  height: 175px; /* Adjust height as needed */
-  background-color: black; /* Adjust color as needed */
-  position: absolute; /* Positioning for thin rectangle */
-  top: 535px; /* Adjust top position as needed */
-  left: 112px; /* Adjust left position as needed */
+  width: 5px; 
+  height: 175px; 
+  background-color: black;
+  position: absolute;
+  top: 535px;
+  left: 112px; 
 }
 
 .circleB {
-  width: 30px; /* Adjust size as needed */
-  height: 30px; /* Adjust size as needed */
+  width: 30px; 
+  height: 30px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 500px; /* Adjust top position as needed */
-  left: 1300px; /* Adjust left position as needed */
+  top: 500px; 
+  left: 1300px;
 }
 
 .ovalF {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 490px; /* Adjust top position as needed */
-  left: 1335px; /* Adjust left position as needed */
+  top: 490px; 
+  left: 1335px;
   transform: rotate(160deg);
 }
 
 .ovalG {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 540px; /* Adjust top position as needed */
-  left: 1320px; /* Adjust left position as needed */
+  top: 540px; 
+  left: 1320px;
   transform: rotate(45deg);
 }
 
 .ovalH {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 540px; /* Adjust top position as needed */
-  left: 1260px; /* Adjust left position as needed */
+  top: 540px; 
+  left: 1260px; 
   transform: rotate(-45deg);
 }
 
 .ovalI {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 485px; /* Adjust top position as needed */
-  left: 1250px; /* Adjust left position as needed */
+  top: 485px; 
+  left: 1250px;
   transform: rotate(30deg);
 }
 
 .ovalJ {
-  width: 50px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
+  width: 50px; 
+  height: 20px; 
   border-radius: 50%; /* Make it a circle */
   background-color: black;
-  top: 460px; /* Adjust top position as needed */
-  left: 1300px; /* Adjust left position as needed */
+  top: 460px; 
+  left: 1300px; 
   transform: rotate(105deg);
 }
 
 .rectangleB {
-  width: 5px; /* Adjust width as needed */
-  height: 175px; /* Adjust height as needed */
-  background-color: black; /* Adjust color as needed */
-  position: absolute; /* Positioning for thin rectangle */
-  top: 535px; /* Adjust top position as needed */
-  left: 1315px; /* Adjust left position as needed */
+  width: 5px; 
+  height: 175px; 
+  background-color: black; 
+  position: absolute; 
+  top: 535px; 
+  left: 1315px; 
 }
 
 .rounded-squareA {
-  width: 75px; /* Adjust width as needed */
-  height: 175px; /* Adjust height as needed */
-  background-color: black; /* Pink */
+  width: 75px; 
+  height: 175px; 
+  background-color: black; 
   border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
   border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
   border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
@@ -176,9 +176,9 @@ body {
 }
 
 .rounded-squareB {
-  width: 75px; /* Adjust width as needed */
-  height: 175px; /* Adjust height as needed */
-  background-color: black; /* Pink */
+  width: 75px; 
+  height: 175px; 
+  background-color: black; 
   border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
   border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
   border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
@@ -188,18 +188,18 @@ body {
 }
 
 .rectangleC {
-  width: 5px; /* Adjust width as needed */
-  height: 230px; /* Adjust height as needed */
-  background-color: black; /* Adjust color as needed */
-  position: absolute; /* Positioning for thin rectangle */
-  top: 480px; /* Adjust top position as needed */
-  left: 475px; /* Adjust left position as needed */
+  width: 5px; 
+  height: 230px; 
+  background-color: black; 
+  position: absolute; 
+  top: 480px; 
+  left: 475px; 
 }
 
 .rounded-squareC {
-  width: 75px; /* Adjust width as needed */
-  height: 175px; /* Adjust height as needed */
-  background-color: black; /* Pink */
+  width: 75px; 
+  height: 175px; 
+  background-color: black; 
   border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
   border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
   border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
@@ -209,9 +209,9 @@ body {
 }
 
 .rounded-squareD {
-  width: 75px; /* Adjust width as needed */
-  height: 175px; /* Adjust height as needed */
-  background-color: black; /* Pink */
+  width: 75px; 
+  height: 175px; 
+  background-color: black; 
   border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
   border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
   border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
@@ -221,18 +221,18 @@ body {
 }
 
 .rectangleD {
-  width: 5px; /* Adjust width as needed */
-  height: 230px; /* Adjust height as needed */
-  background-color: black; /* Adjust color as needed */
-  position: absolute; /* Positioning for thin rectangle */
-  top: 480px; /* Adjust top position as needed */
-  left: 975px; /* Adjust left position as needed */
+  width: 5px; 
+  height: 230px; 
+  background-color: black; 
+  position: absolute; 
+  top: 480px; 
+  left: 975px; 
 }
 
 .rounded-squareE {
-  width: 100px; /* Adjust width as needed */
-  height: 280px; /* Adjust height as needed */
-  background-color: black; /* Pink */
+  width: 100px; 
+  height: 280px; 
+  background-color: black; 
   border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
   border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
   border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
@@ -242,9 +242,9 @@ body {
 }
 
 .rounded-squareF {
-  width: 100px; /* Adjust width as needed */
-  height: 280px; /* Adjust height as needed */
-  background-color: black; /* Pink */
+  width: 100px; 
+  height: 280px; 
+  background-color: black; 
   border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
   border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
   border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
@@ -254,12 +254,12 @@ body {
 }
 
 .rectangleE {
-  width: 7px; /* Adjust width as needed */
-  height: 345px; /* Adjust height as needed */
-  background-color: black; /* Adjust color as needed */
-  position: absolute; /* Positioning for thin rectangle */
-  top: 365px; /* Adjust top position as needed */
-  left: 751px; /* Adjust left position as needed */
+  width: 7px; 
+  height: 345px; 
+  background-color: black; 
+  position: absolute; 
+  top: 365px; 
+  left: 751px; 
 }
 
 .home-page {
@@ -291,7 +291,7 @@ body {
 
 @media (max-width: 768px) {
   .about-me {
-   margin-bottom: 600px;/* Adjust the scale factor as needed */
+   margin-bottom: 600px;
    margin-left: 80px;
    margin-right: 30px;
    text-align: left;
