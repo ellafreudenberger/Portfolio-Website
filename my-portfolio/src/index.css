@@ -11,13 +11,6 @@ body {
   position: relative;
 }
 
-
-
-.shape-container {
-  display: flex;
-  justify-content: center;
-}
-
 .shape {
   position: absolute;
 }

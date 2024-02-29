@@ -5,7 +5,8 @@
 
 .button-container {
     position: relative;
-    left: 500px;
+    left: 350px;
+    top: -350px;
 }
 
 .cylinder-button {
