@@ -1,12 +1,8 @@
 .watering-can {
     display: flex;
     position: relative;
-}
-
-.button-container {
-    position: relative;
-    left: 350px;
-    top: -350px;
+    margin-top: -400px;
+    margin-left: 65%;
 }
 
 .cylinder-button {
@@ -44,3 +40,9 @@
     transform: rotate(140deg)
 }
 
+@media (max-width: 768px) {
+ .watering-can {
+    margin-top: -780px;
+    margin-left: 55%;
+ }
+}

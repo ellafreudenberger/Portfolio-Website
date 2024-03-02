@@ -9,6 +9,7 @@ body {
   bottom: 0;
   width: 100%;
   position: relative;
+  margin-top: 10%;
 }
 
 .shape {
@@ -275,6 +276,7 @@ body {
   font-size: 60px;
   text-align: left;
   justify-content: center;
+  line-height: 0.8;
 }
 
 @media (max-width: 768px) {
@@ -284,8 +286,8 @@ body {
     font-size: 30px;
     text-align: left;
     justify-content: center;
-   margin-right: 25%;
-   margin-top: -80px;
+   margin-right: 20%;
+   margin-top: -380px;
  }
 
 
@@ -295,5 +297,9 @@ body {
   font-size: 40px;
   text-align: left;
   justify-content: center;
+  line-height: 0.8;
+}
+body {
+  overflow-x: hidden;
 }
 }
