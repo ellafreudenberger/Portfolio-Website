@@ -2,19 +2,20 @@ import React from 'react';
 import "../index.css";
 import WateringCan from '../components/wateringCan';
 
+
 export const Home = () => {
     return (
         <div className="home-page"> 
-            <div>
-            <p class="about-me">
-            Hey there! My name is <span class="highlight">Ella</span>.
-            I'm a full stack software designer based in New York City. <br /><br />
-            I <span class="highlight">nurture</span> brands, <span class="highlight">cultivate</span> new connections, and <span class="highlight">grow</span> vibrant communities online.
-            </p>
+                <p className="about-me invert-on-black">
+                    Hey there! My name is <span className="highlight">Ella</span>.
+                    I'm a full stack software designer based in New York City. <br /><br />
+                    I <span className="highlight">nurture</span> brands, <span className="highlight">cultivate</span> new connections, and <span className="highlight">grow</span> vibrant communities online.
+                </p>
+                <div className="watering-can invert-on-black">
+                <WateringCan />
             </div>
-            <div className="watering-can">
-            <WateringCan />
-            </div>
+            <div className="black-background"></div>
+            <div className="white-background"></div>
         </div>
     );
 }

@@ -4,7 +4,7 @@ import "../index.css"
 const ShapeArt = () => {
     return (
         <div>    
-             <footer className="footer"> 
+             <footer className="footer invert-on-black"> 
                  <div className="shape-container">
 
             {/* Daisy 1 */}     

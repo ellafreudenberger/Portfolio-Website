@@ -3,7 +3,7 @@ import "../styling/nav.css";
 
 function PortfolioNav () {
     return (
-       <nav>
+       <nav className='invert-on-black'>
          <ul>
              <li><a href="/">home</a></li>
              <li><a href="/projects">work</a></li>
