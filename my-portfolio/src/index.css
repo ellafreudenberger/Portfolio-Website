@@ -283,7 +283,7 @@ body {
   margin-right: 40%;
   margin-left: 100px;
   line-height: 1.7;
-  margin-top: 10px;
+  margin-top: 92px;
 }
 
 .highlight {
@@ -301,7 +301,7 @@ body {
     -webkit-background-clip: text; /* Apply gradient to text only */
     background-clip: text; /* Apply gradient to text only */
     color: transparent; /* Hide text color */
-    text-shadow: 0 0 5px (255, 255, 255, 0.1);
+    text-shadow: 0 0 1px (255, 255, 255, 0.1);
 }
 
 body {
@@ -315,9 +315,9 @@ body {
     font-size: 30px;
     text-align: left;
     justify-content: center;
-   margin-right: 30%;
-   margin-left: 50px;
-   margin-top: 100px;
+    margin-right: 30%;
+    margin-left: 50px;
+    margin-top: 580px;
  }
 
 
@@ -372,3 +372,4 @@ body {
         text-shadow: 0 0 5px (255, 255, 255, 0.5);
 }
 }
+

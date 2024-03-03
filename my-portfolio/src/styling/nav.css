@@ -1,11 +1,17 @@
 nav {
-    display: flex;
+    position: fixed; /* Fix the nav at the top of the viewport */
     top: 0;
-    justify-content: center;
-    margin-bottom: 11px;
-    background-color: rgb(255, 255, 255)
-  }
-  
+    height: 90px;
+    width: 100%;
+    z-index: 999; /* Ensure it's above other content */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
   
   ul {
     list-style-type: none;
@@ -38,7 +44,9 @@ nav {
 /* Media queries for adjusting font size based on screen width */
 @media (max-width: 900px) {
     nav {
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.8); /* Transparent white background for small screens */
+        height: 540px;
+        justify-content: flex-start;
     }
     .invert-property {
         filter: invert(100%);
@@ -52,7 +60,7 @@ nav {
   
     li {
       margin-top: 0%;
-      margin-left: -30%;
+      margin-left: 0%;
     }
 
     li a:hover {
@@ -63,4 +71,17 @@ nav {
         color: transparent; /* Hide text color */
         text-shadow: 0 0 5px (255, 255, 255, 0.5);
       }
+
+      .nav-scrolled {
+        height: 65px; 
+        background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+        transition: background-color 0.3s; /* Smooth transition for background color change */
+        justify-content: flex-end;
+    }
+
+    .scrolled {
+        font-size: 14px; /* Adjust the font size as desired */
+        flex-direction: row;
+        justify-content: flex-end;
+    }
   }
