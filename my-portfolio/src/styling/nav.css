@@ -1,8 +1,7 @@
 nav {
     display: flex;
-    width: 1445px;
-    margin: 0;
     top: 0;
+    justify-content: center;
   }
   
   
@@ -44,6 +43,7 @@ nav {
 
     li {
         margin-top: 0%;
+        margin-left: -50%;
     }
 }
 
