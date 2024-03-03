@@ -19,25 +19,26 @@
 
 .rounded-line-buttonA {
     position: absolute;
-    top: 190px;
-    left: -1008px;
-    width: 1200px; 
-    height: 250px; 
+    top: 5.5px;
+    left: -399px;
+    width: 510px; 
+    height: 206px; 
     border: solid 10px transparent; 
     border-left-color: transparent; 
     border-right-color: #000; 
     border-radius: 50%; 
-    transform: rotate(-30deg);
+    transform: rotate(-15deg);
 }
 
 .rounded-line-buttonB {
     position: absolute;
-    top: -5px;
-    left: -35px;
-    height: 100px; 
-    border: solid 15px transparent; 
+    top: -7px;
+    left: -39px;
+    height: 130px; 
+    border: solid 13px transparent; 
     border-right-color: #000; 
-    transform: rotate(140deg)
+    transform: rotate(120deg)
+    
 }
 
 @media (max-width: 900px) {
