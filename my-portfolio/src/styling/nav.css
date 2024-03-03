@@ -35,7 +35,7 @@ nav {
 
 
 /* Media queries for adjusting font size based on screen width */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     ul {
         font-size: 80px; 
         flex-direction: column;
