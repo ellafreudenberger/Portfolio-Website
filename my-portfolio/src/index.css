@@ -24,7 +24,7 @@ body {
 }
 
 .invert-on-black {
-  filter: invert(11%);
+  filter: invert(7%);
 }
 
 .shape {
@@ -319,6 +319,7 @@ body {
 
 .footer {
   margin-top: 0%;
+  margin-left: 10%;
 }
 
 body {
@@ -346,6 +347,6 @@ body {
 }
 
 .invert-on-black {
-  filter: invert(92%);
+  filter: invert(95%);
 }
 }

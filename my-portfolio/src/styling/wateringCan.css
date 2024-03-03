@@ -40,7 +40,7 @@
     transform: rotate(140deg)
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
  .watering-can {
     margin-top: 65px;
     margin-left: 60%;
