@@ -8,7 +8,7 @@ export const Home = () => {
         <div className="home-page"> 
                 <p className="about-me invert-on-black">
                     Hey there! My name is <span className="highlight">Ella</span>.
-                    I'm a full stack software designer based in New York City. <br /><br />
+                    I'm a full stack software designer based in New York City. <br /><br /><br />
                     I <span className="highlight">nurture</span> brands, <span className="highlight">cultivate</span> new connections, and <span className="highlight">grow</span> vibrant communities online.
                 </p>
                 <div className="watering-can invert-on-black">
