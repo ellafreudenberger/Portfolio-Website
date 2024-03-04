@@ -499,11 +499,11 @@ body {
 
 .about-me .highlight:hover {
   background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
-  background-size: 90% auto;
+  background-size: 150% auto;
   -webkit-background-clip: text; /* Apply gradient to text only */
   background-clip: text; /* Apply gradient to text only */
   color: transparent; /* Hide text color */
-  text-shadow: 0 0 5px (255, 255, 255, 0.5);
+  text-shadow: 0px 0px 0px (255, 255, 255, 0.5);
 }
 
 /* Work Page */
