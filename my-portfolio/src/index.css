@@ -519,7 +519,14 @@ body {
   position: relative;
   align-items: center;
   justify-content: center;
-  margin-top: 91%;
+  margin-top: 570px;
+}
+
+.contact-background {
+  background-image: url('./images/blue-flower.jpg');
+  height: 200px;
+  margin-top: 25px;
+  background-size: 100% auto;
 }
 }
 
