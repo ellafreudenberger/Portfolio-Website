@@ -64,8 +64,8 @@ nav {
     }
 
     li a:hover {
-        background-image: linear-gradient(to right, rgb(165, 2, 2), rgb(235, 112, 81), rgb(46, 114, 73), rgb(5, 5, 112), rgb(63, 1, 98), rgb(212, 83, 104)); /* Rainbow gradient */
-        background-size: 70% auto;
+        background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+        background-size: 50% auto;
         -webkit-background-clip: text; /* Apply gradient to text only */
         background-clip: text; /* Apply gradient to text only */
         color: transparent; /* Hide text color */

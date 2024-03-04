@@ -283,7 +283,7 @@ body {
   margin-right: 40%;
   margin-left: 100px;
   line-height: 1.7;
-  margin-top: 92px;
+  margin-top: 90px;
 }
 
 .highlight {
@@ -296,17 +296,151 @@ body {
 }
 
 .about-me .highlight:hover {
-    background-image: linear-gradient(to right, rgb(165, 2, 2), rgb(235, 112, 81), rgb(46, 114, 73), rgb(5, 5, 112), rgb(63, 1, 98), rgb(212, 83, 104)); /* Rainbow gradient */
-    background-size: 100% auto;
-    -webkit-background-clip: text; /* Apply gradient to text only */
-    background-clip: text; /* Apply gradient to text only */
-    color: transparent; /* Hide text color */
-    text-shadow: 0 0 1px (255, 255, 255, 0.1);
+  background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+  background-size: 100% auto;
+  -webkit-background-clip: text; /* Apply gradient to text only */
+  background-clip: text; /* Apply gradient to text only */
+  color: transparent; /* Hide text color */
+  text-shadow: 0 0 5px (255, 255, 255, 0.5);
 }
 
 body {
   overflow-x: hidden;
 }
+
+/* Projects Page */
+
+.work-background {
+  background-image: url('./images/pink-flower.jpg');
+  height: 900px;
+  width: 100%;
+  background-position: center; 
+  margin-top: 113px;
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
+
+.Playdates-title-container {
+  height: 50%; 
+  width: 60%; 
+  background-color: pink;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: center;
+  align-items: center; /* Vertically center content */
+  text-decoration: none; 
+  flex-direction: column;
+  margin-left: 10%; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}
+
+.Playdates-title {
+  margin-top: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(49, 12, 12);
+  font-size: 50px;
+}
+
+.Playdates-link {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  color: rgb(49, 12, 12);
+  text-decoration: none; 
+  margin-top: -10px;
+}
+
+.Playdates-link:hover {
+  text-decoration: underline;
+}
+
+.Playdates-description {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(49, 12, 12);
+  font-size: 20px;
+  height: 50%; 
+  width: 60%; 
+  background-color: pink;
+  padding-right: 5%;
+  display: flex;
+  justify-content: left; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  margin-right: 10%;
+}
+
+.work-picture-description {
+  display: flex;
+  justify-content: flex-end;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  margin: 1%;
+  font-size: 10px;
+}
+
+.work-picture-description a:visited {
+  color: black; /* Set the color to black for visited links */
+}
+
+/* Error Page */
+
+.errorPageTitle {
+  display: flex;
+  position: relative;
+  margin-left: 20%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 200px;
+}
+
+.errorPage {
+  display: flex;
+  position: relative;
+  margin-left: 20%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 80px;
+}
+
+/* Contact Page */
+
+.contact-background {
+  background-image: url('./images/blue-flower.jpg');
+  height: 550px;
+  margin-top: 25px;
+  background-size: 100% auto;
+}
+
+.contact-links {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+  margin-left: 10%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+}
+
+.Github, 
+.LinkedIn,
+.Email {
+  margin-right: 10%;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-picture-description {
+  display: flex;
+  justify-content: flex-end;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  margin: 5px;
+  font-size: 10px;
+}
+
+.contact-picture-description a:visited {
+  color: black; /* Set the color to black for visited links */
+}
+
 
 @media (max-width: 900px) {
   .about-me {
@@ -364,12 +498,63 @@ body {
 }
 
 .about-me .highlight:hover {
-        background-image: linear-gradient(to right, rgb(165, 2, 2), rgb(235, 112, 81), rgb(46, 114, 73), rgb(5, 5, 112), rgb(63, 1, 98), rgb(212, 83, 104)); /* Rainbow gradient */
-        background-size: 100% auto;
-        -webkit-background-clip: text; /* Apply gradient to text only */
-        background-clip: text; /* Apply gradient to text only */
-        color: transparent; /* Hide text color */
-        text-shadow: 0 0 5px (255, 255, 255, 0.5);
+  background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+  background-size: 90% auto;
+  -webkit-background-clip: text; /* Apply gradient to text only */
+  background-clip: text; /* Apply gradient to text only */
+  color: transparent; /* Hide text color */
+  text-shadow: 0 0 5px (255, 255, 255, 0.5);
+}
+
+/* Work Page */
+
+.work-background {
+  margin-top: 59%;
+}
+
+/* Contact Page */
+
+.contact-links {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 69%;
 }
 }
 
+
+
+@media (max-width: 700px) {
+
+  /* Projects Page */
+
+.work-background {
+  display: flex;
+  flex-direction: column;
+}
+.Playdates-title-container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 11%;
+  justify-content: flex-start;
+  padding-top: 5%;
+}
+
+.Playdates-description {
+  margin-top: -60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: -15px;
+  justify-content: center;
+}
+
+.Playdates-link {
+  margin-top: -15px;
+}
+
+
+}
