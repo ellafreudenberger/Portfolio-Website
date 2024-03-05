@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home handleWatering={handleWatering} />} />
+        <Route path="/" element={<Home handleWatering={handleWatering} watered={watered} />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />

@@ -23,6 +23,10 @@ body {
   z-index: -1; /* Ensure it's behind other content */
 }
 
+.hidden {
+  display: none;
+}
+
 .invert-on-black {
   filter: invert(10%);
 }

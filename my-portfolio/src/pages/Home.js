@@ -2,7 +2,7 @@ import React from 'react';
 import "../index.css";
 import WateringCan from '../components/wateringCan';
 
-export const Home = ({ handleWatering }) => { // Receive handleWatering as prop
+export const Home = ({ handleWatering, watered }) => { // Receive handleWatering & watered as prop
     return (
       <div className="home-page"> 
         <p className="about-me invert-on-black">
@@ -13,7 +13,7 @@ export const Home = ({ handleWatering }) => { // Receive handleWatering as prop
           <WateringCan onWater={handleWatering} /> {/* Pass handleWatering to WateringCan */}
           <p className="watering-instructions">click me</p>
         </div>
-        <div className="black-background"></div>
+        <div className={`black-background ${watered ? 'hidden' : ''}`}></div>
         <div className="white-background"></div>
       </div>
     );
