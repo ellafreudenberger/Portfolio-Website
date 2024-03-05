@@ -72,3 +72,21 @@
  }
 }
 
+/* On Click Event */
+
+.cylinder-button.clicked {
+    background-color: darkblue; /* Change the color when clicked */
+  }
+
+  .rounded-line-buttonA.clicked {
+    border-right-color: darkblue; 
+}
+
+.rounded-line-buttonB.clicked {
+    border-right-color: darkblue; 
+}
+
+.water-text.clicked {
+    background-color: darkblue;
+    color: white;
+}

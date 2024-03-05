@@ -639,3 +639,54 @@ height: 100px;
     display: none;
   }
 }
+
+/* watered state */
+
+.colorfulA {
+  background-color: rgb(91, 28, 137);
+}
+
+.colorfulB, .colorfulC, .colorfulD, .colorfulE, .colorfulF {
+  background-color: rgb(255, 80, 80);
+}
+
+.colorfulG {
+  background-color: rgb(37, 99, 65);
+}
+
+.colorfulH {
+ background-color:  rgb(91, 28, 137);
+}
+
+.colorfulI, .colorfulJ, .colorfulK, .colorfulL, .colorfulM {
+  background-color: rgb(255, 80, 80);
+} 
+
+.colorfulN {
+  background-color: rgb(37, 99, 65);
+}
+
+.colorfulO, .colorfulP {
+  background-color: rgb(0, 191, 255);
+}
+
+.colorfulQ {
+  background-color: rgb(37, 99, 65);
+}
+
+.colorfulR, .colorfulS {
+  background-color: rgb(252, 164, 190);
+}
+
+.colorfulT {
+  background-color: rgb(37, 99, 65);
+}
+
+.colorfulU, .colorfulV {
+  background-color: rgb(255, 136, 0);
+}
+
+.colorfulW {
+  background-color: rgb(37, 99, 65);
+}
+

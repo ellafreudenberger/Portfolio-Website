@@ -1,17 +1,31 @@
-import React from 'react';
+import React, { useState } from "react";
 import "../styling/wateringCan.css";
 
-const WateringCan = () => {
+const WateringCan = ({ onWater }) => {
+    const [clicked, setClicked] = useState(false);
+
+    const handleClick = () => {
+        console.log('Watering can clicked');
+        
+        // Call the onWater function passed as props
+        onWater();
+
+        // Toggle the clicked state
+        setClicked(!clicked);
+    };
+
     return (
-        <div className="button-container">
-            <div className="cylinder-button"></div>
-            <div className="rounded-line-buttonA"></div>
-            <div className="rounded-line-buttonB"></div>
-            <h1 className="button-description">
-                <span className="water-text">water</span>
+        <div className="button-container" onClick={handleClick}>
+            <div className={`cylinder-button ${clicked ? 'clicked' : ''}`}></div>
+            <div className={`rounded-line-buttonA ${clicked ? 'clicked' : ''}`}></div>
+            <div className={`rounded-line-buttonB ${clicked ? 'clicked' : ''}`}></div>
+            <h1 className={`button-description ${clicked ? 'clicked' : ''}`}>
+                <span className={`water-text ${clicked ? 'clicked' : ''}`}>water</span>
             </h1>
         </div>
     );
 }
 
 export default WateringCan;
+
+
