@@ -4,6 +4,10 @@ import "../index.css";
 export const Contact = () => {
   return (
     <div>
+    <div className="blue-background"></div>
+    <div className="personal-background">
+    <p>I graduated from NYU Gallatin's School of Individualized Study with a B.A. in Entertainment Public Relations & Multimedia Communications in 2020. Building on this foundation, I furthered my education by completing a software development professional certificate program at NYU's School of Professional Studies this past December of 2023. <br /><br />Throughout my academic and professional endeavors, my passion for multimedia arts, digital storytelling and brand development has only grown. If you are interested in working together or have any additional inquiries, please contact me at eliana.freudenberger@gmail.com.</p>
+    </div>
     <div className='contact-black-background'></div>
       <div className='contact-links'>
         <a className="Github" href="https://github.com/ellafreudenberger" target="_blank" rel="noopener noreferrer">
