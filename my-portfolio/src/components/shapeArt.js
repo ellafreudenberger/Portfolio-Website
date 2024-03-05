@@ -1,49 +1,61 @@
 import React from 'react';
 import "../index.css";
 
-const ShapeArt = ({ watered }) => {
+const ShapeArt = ({ watered, singlePageMode}) => {
 
     console.log("ShapeArt component rendered with watered:", watered);
+   
+     // Determine the container element based on singlePageMode
+     const ContainerComponent = singlePageMode ? 'div' : 'footer';
+
+     // Define the class name for the component based on conditions
+     const singleMargin = `footer invert-on-black ${watered ? 'watered' : ''}`;
+
+      // Define the style for the div with margin-bottom
+      const divStyle = singlePageMode 
+      ? { marginTop: '-700px' }
+      : { marginTop: '-700px' }; 
+
     return (
         <div>    
-             <footer className={`footer invert-on-black ${watered ? 'watered' : ''}`}> 
+             <ContainerComponent className={singleMargin}>
                  <div className="shape-container">
 
             {/* Daisy 1 */}     
-            <div className={`shape circleA ${watered ? 'colorfulA' : ''}`}></div>    
-            <div className={`shape ovalA ${watered ? 'colorfulB' : ''}`}></div> 
-            <div className={`shape ovalB ${watered ? 'colorfulC' : ''}`}></div>   
-            <div className={`shape ovalC ${watered ? 'colorfulD' : ''}`}></div>      
-            <div className={`shape ovalD ${watered ? 'colorfulE' : ''}`}></div>       
-            <div className={`shape ovalE ${watered ? 'colorfulF' : ''}`}></div>   
-            <div className={`shape rectangleA ${watered ? 'colorfulG' : ''}`}></div> 
+            <div className={`shape circleA ${watered ? 'colorfulA' : ''}`} style={divStyle}></div>
+            <div className={`shape ovalA ${watered ? 'colorfulB' : ''}`} style={divStyle}></div> 
+            <div className={`shape ovalB ${watered ? 'colorfulC' : ''}`} style={divStyle}></div>   
+            <div className={`shape ovalC ${watered ? 'colorfulD' : ''}`} style={divStyle}></div>      
+            <div className={`shape ovalD ${watered ? 'colorfulE' : ''}`} style={divStyle}></div>       
+            <div className={`shape ovalE ${watered ? 'colorfulF' : ''}`} style={divStyle}></div>  
+            <div className={`shape rectangleA ${watered ? 'colorfulG' : ''}`} style={divStyle}></div>
 
             {/* Daisy 1 */}    
-            <div className={`shape circleB ${watered ? 'colorfulH' : ''}`}></div>    
-            <div className={`shape ovalF ${watered ? 'colorfulI' : ''}`}></div> 
-            <div className={`shape ovalG ${watered ? 'colorfulJ' : ''}`}></div>   
-            <div className={`shape ovalH ${watered ? 'colorfulK' : ''}`}></div>      
-            <div className={`shape ovalI ${watered ? 'colorfulL' : ''}`}></div>       
-            <div className={`shape ovalJ ${watered ? 'colorfulM' : ''}`}></div>   
-            <div className={`shape rectangleB ${watered ? 'colorfulN' : ''}`}></div> 
+            <div className={`shape circleB ${watered ? 'colorfulH' : ''}`} style={divStyle}></div>   
+            <div className={`shape ovalF ${watered ? 'colorfulI' : ''}`} style={divStyle}></div>
+            <div className={`shape ovalG ${watered ? 'colorfulJ' : ''}`} style={divStyle}></div>
+            <div className={`shape ovalH ${watered ? 'colorfulK' : ''}`} style={divStyle}></div>     
+            <div className={`shape ovalI ${watered ? 'colorfulL' : ''}`} style={divStyle}></div>     
+            <div className={`shape ovalJ ${watered ? 'colorfulM' : ''}`} style={divStyle}></div>
+            <div className={`shape rectangleB ${watered ? 'colorfulN' : ''}`} style={divStyle}></div>
 
              {/* Tulip 1 */}  
-             <div className={`shape rounded-squareA ${watered ? 'colorfulO' : ''}`}></div>   
-             <div className={`shape rounded-squareB ${watered ? 'colorfulP' : ''}`}></div>  
-             <div className={`shape rectangleC ${watered ? 'colorfulQ' : ''}`}></div>    
+             <div className={`shape rounded-squareA ${watered ? 'colorfulO' : ''}`} style={divStyle}></div>   
+             <div className={`shape rounded-squareB ${watered ? 'colorfulP' : ''}`} style={divStyle}></div>
+             <div className={`shape rectangleC ${watered ? 'colorfulQ' : ''}`} style={divStyle}></div> 
 
               {/* Tulip 2 */}  
-             <div className={`shape rounded-squareC ${watered ? 'colorfulR' : ''}`}></div>   
-             <div className={`shape rounded-squareD ${watered ? 'colorfulS' : ''}`}></div>  
-             <div className={`shape rectangleD ${watered ? 'colorfulT' : ''}`}></div>      
+             <div className={`shape rounded-squareC ${watered ? 'colorfulR' : ''}`} style={divStyle}></div>  
+             <div className={`shape rounded-squareD ${watered ? 'colorfulS' : ''}`} style={divStyle}></div> 
+             <div className={`shape rectangleD ${watered ? 'colorfulT' : ''}`} style={divStyle}></div> 
 
              
               {/* Tulip 3 */}  
-             <div className={`shape rounded-squareE ${watered ? 'colorfulU' : ''}`}></div>   
-             <div className={`shape rounded-squareF ${watered ? 'colorfulV' : ''}`}></div>  
-             <div className={`shape rectangleE ${watered ? 'colorfulW' : ''}`}></div>          
+             <div className={`shape rounded-squareE ${watered ? 'colorfulU' : ''}`} style={divStyle}></div>  
+             <div className={`shape rounded-squareF ${watered ? 'colorfulV' : ''}`} style={divStyle}></div> 
+             <div className={`shape rectangleE ${watered ? 'colorfulW' : ''}`} style={divStyle}></div>     
         </div>
-        </footer>
+        </ContainerComponent>
         </div>
     );
 }

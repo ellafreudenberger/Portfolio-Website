@@ -1,0 +1,10 @@
+.single-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .single-projects {
+    top: 190px; /* Adjust the margin-top value to move the projects lower on the page */
+  }
+  

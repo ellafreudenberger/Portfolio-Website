@@ -4,6 +4,7 @@
     margin-top: 0px;
     margin-left: 65%;
     z-index: 1;
+    margin-bottom: 650px;
 }
 
 .cylinder-button {
@@ -53,6 +54,7 @@
     margin-top: -85px;
     left: 16.5px;
     z-index: 2;
+    margin-bottom: 20%;
 }
 
 .water-text:hover {

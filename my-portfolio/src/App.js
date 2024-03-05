@@ -30,9 +30,11 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-
+      
       {/* Conditionally render ShapeArt component based on the route */}
-      {location.pathname === '/' && <ShapeArt watered={watered} />}
+      {location.pathname === '/' && (
+        <ShapeArt watered={watered} singlePageMode={singlePageMode} />
+      )}
 
       {/* Render SinglePage component below the footer when in single-page mode */}
       {singlePageMode && <SinglePage />}

@@ -284,6 +284,7 @@ body {
   margin-left: 100px;
   line-height: 1.7;
   margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .highlight {
@@ -659,6 +660,7 @@ height: 100px;
 
 .colorfulA {
   background-color: rgb(91, 28, 137);
+
 }
 
 .colorfulB, .colorfulC, .colorfulD, .colorfulE, .colorfulF {
@@ -705,6 +707,5 @@ height: 100px;
   background-color: rgb(37, 99, 65);
 }
 
-/* Hide ShapeArt component on Projects and Contact pages */
 
 
