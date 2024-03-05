@@ -11,6 +11,7 @@ export const Home = ({ handleWatering }) => { // Receive handleWatering as prop
         </p>
         <div className="watering-can invert-on-black">
           <WateringCan onWater={handleWatering} /> {/* Pass handleWatering to WateringCan */}
+          <p className="watering-instructions">click me</p>
         </div>
         <div className="black-background"></div>
         <div className="white-background"></div>
