@@ -5,19 +5,25 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 import ShapeArt from './components/shapeArt';
+import SinglePage from './components/singlePage';
 
 const App = () => {
   const location = useLocation();
   const [watered, setWatered] = useState(false);
+  const [singlePageMode, setSinglePageMode] = useState(false);
 
   // Function to handle watering
   const handleWatering = () => {
-    console.log('Watering action triggered'); // Log when watering action is triggered
-    setWatered(!watered); // Toggle the value of watered state
-    console.log('Watered state:', !watered); // Log the updated watered state
+    console.log('Watering action triggered');
+    setWatered(!watered);
+    console.log('Watered state:', !watered);
+
+    // Toggle single-page mode
+    setSinglePageMode(prevMode => !prevMode);
   };
 
-  const showShapeArt = !['/projects', '/contact'].includes(location.pathname);
+  // Determine whether to show the ShapeArt component
+  const showShapeArt = !singlePageMode && !['/projects', '/contact'].includes(location.pathname);
 
   return (
     <div>
@@ -27,7 +33,12 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-      {showShapeArt && <ShapeArt watered={watered} />}
+
+      {/* Render SinglePage component when single-page mode is enabled */}
+      {singlePageMode && <SinglePage />}
+      
+      {/* Render ShapeArt component when in single-page mode or on applicable routes */}
+      {(singlePageMode || showShapeArt) && <ShapeArt watered={watered} />}
     </div>
   );
 }
