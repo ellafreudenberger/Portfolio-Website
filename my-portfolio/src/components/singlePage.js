@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from '../pages/Contact';
 import Projects from '../pages/Projects';
 
+
 const SinglePage = () => {
     return (
         <div>

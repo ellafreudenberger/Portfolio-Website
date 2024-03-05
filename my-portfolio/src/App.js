@@ -22,9 +22,6 @@ const App = () => {
     setSinglePageMode(prevMode => !prevMode);
   };
 
-  // Determine whether to show the ShapeArt component
-  const showShapeArt = !singlePageMode && !['/projects', '/contact'].includes(location.pathname);
-
   return (
     <div>
       <Routes>
@@ -34,11 +31,11 @@ const App = () => {
         <Route path="*" element={<PageNotFound />} />
       </Routes>
 
-      {/* Render SinglePage component when single-page mode is enabled */}
+      {/* Conditionally render ShapeArt component based on the route */}
+      {location.pathname === '/' && <ShapeArt watered={watered} />}
+
+      {/* Render SinglePage component below the footer when in single-page mode */}
       {singlePageMode && <SinglePage />}
-      
-      {/* Render ShapeArt component when in single-page mode or on applicable routes */}
-      {(singlePageMode || showShapeArt) && <ShapeArt watered={watered} />}
     </div>
   );
 }
