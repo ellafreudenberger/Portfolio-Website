@@ -4,6 +4,7 @@ import "../index.css";
 export const Contact = () => {
   return (
     <div>
+    <div className='contact-black-background'></div>
       <div className='contact-links'>
         <a className="Github" href="https://github.com/ellafreudenberger" target="_blank" rel="noopener noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="100" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
