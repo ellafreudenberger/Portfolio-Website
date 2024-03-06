@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 import ShapeArt from './components/shapeArt';
 import SinglePage from './components/singlePage';
+import PortfolioNav from './components/nav';
 
 const App = () => {
   const location = useLocation();
@@ -24,6 +25,7 @@ const App = () => {
 
   return (
     <div>
+      <PortfolioNav singlePageMode={singlePageMode} /> {/* Pass singlePageMode as prop */}
       <Routes>
         <Route path="/" element={<Home handleWatering={handleWatering} watered={watered} />} />
         <Route path="/projects" element={<Projects />} />
