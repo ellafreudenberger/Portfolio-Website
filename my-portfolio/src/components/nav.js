@@ -34,11 +34,7 @@ function PortfolioNav({ singlePageMode }) {
     const handleClick = (id, e) => {
         e.preventDefault(); // Prevent the default behavior of anchor tags
         if (singlePageMode) {
-            let offset = 0; // Default offset
-            if (id === 'projects') {
-                offset = 0; 
-            }
-            scrollToSection(id, offset);
+            scrollToSection(id); // Scroll to the clicked section 
         }
     };
 

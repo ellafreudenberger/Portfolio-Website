@@ -9,7 +9,8 @@ const SinglePage = () => {
         <div className="single-container"> 
             <div className="single-black-background"> </div>
             <div className="single-white-background"> </div>
-            <div id="projects" className="single-projects"> {/* Add id="projects" */}
+            <div className="projects-scroll"> </div>
+            <div className="single-projects"> {/* Add id="projects" */}
                 <Projects /> 
             </div>
             <div id="contact" className="single-contact"> {/* Add id="contact" */}

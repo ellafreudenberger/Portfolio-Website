@@ -5,12 +5,11 @@ import "../index.css";
 
 export const Projects = () => {
     return (
-        <div className='work-container'>
+        <div id="projects" className='work-container'>
         <div className='work-background'> 
             <div className='Playdates-title-container'>
           <h1 className='Playdates-title'>Playdates</h1>
           <a href="/project-details" className="Playdates-link">visit website</a>
-          <a></a>
           </div>
         <h2 className='Playdates-description'>Playdates is a MERN stack application with CRUD operations for dog walking, sitting and boarding on the Upper East Side of New York City. Users can schedule playdates for their dogs using the calendar module, and administrators can manage all bookings and client information internally.</h2>
         </div>
