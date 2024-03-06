@@ -5,6 +5,35 @@
   }
   
   .single-projects {
-    top: 190px; /* Adjust the margin-top value to move the projects lower on the page */
+    top: 190px; 
   }
   
+.single-black-background {
+    background-color: black;
+    display: flex;
+    position: relative;
+    margin-top: 0px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+    margin-bottom: -115px;
+}
+
+@media (max-width: 900px) {
+
+.single-white-background {
+    background-color: white;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    margin-bottom: -60%;
+    z-index: 100;
+}
+.single-black-background {
+   display: none;
+}
+}

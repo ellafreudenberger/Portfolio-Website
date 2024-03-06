@@ -4,7 +4,10 @@ import "../styling/wateringCan.css";
 const WateringCan = ({ onWater }) => {
     const [clicked, setClicked] = useState(false);
 
-    const handleClick = () => {
+    const handleClick = (e) => {
+        // Prevent the default behavior of the click event
+        e.preventDefault();
+
         console.log('Watering can clicked');
         
         // Call the onWater function passed as props
