@@ -44,13 +44,13 @@ function PortfolioNav({ singlePageMode }) {
                 {singlePageMode ? (
                     <>
                         <li><a href="#home" onClick={(e) => handleClick('home', e)}>home</a></li>
-                        <li><a href="#projects" onClick={(e) => handleClick('projects', e)}>work</a></li>
+                        <li><a href="#work" onClick={(e) => handleClick('projects', e)}>work</a></li>
                         <li><a href="#contact" onClick={(e) => handleClick('contact', e)}>contact</a></li>
                     </>
                 ) : (
                     <>
                         <li><a href="/">home</a></li>
-                        <li><a href="/projects">work</a></li>
+                        <li><a href="/work">work</a></li>
                         <li><a href="/contact">contact</a></li>
                     </>
                 )}
