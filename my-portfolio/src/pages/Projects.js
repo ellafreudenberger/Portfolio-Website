@@ -5,7 +5,7 @@ import "../index.css";
 
 export const Projects = () => {
     return (
-        <div id="projects" className='work-container'>
+        <div id="projects" className='work-container'> {/* Add id="projects" */}
         <div className='work-background'> 
             <div className='Playdates-title-container'>
           <h1 className='Playdates-title'>Playdates</h1>

@@ -663,51 +663,51 @@ height: 100px;
 /* watered state */
 
 .colorfulA {
-  background-color: rgb(91, 28, 137);
+  background-color: purple;
 
 }
 
 .colorfulB, .colorfulC, .colorfulD, .colorfulE, .colorfulF {
-  background-color: rgb(255, 80, 80);
+  background-color: rgb(251, 54, 0);
 }
 
 .colorfulG {
-  background-color: rgb(37, 99, 65);
+  background-color: rgb(0, 99, 67);
 }
 
 .colorfulH {
- background-color:  rgb(91, 28, 137);
+ background-color: purple;
 }
 
 .colorfulI, .colorfulJ, .colorfulK, .colorfulL, .colorfulM {
-  background-color: rgb(255, 80, 80);
+  background-color: rgb(251, 54, 0);
 } 
 
 .colorfulN {
-  background-color: rgb(37, 99, 65);
+  background-color: rgb(0, 99, 67);
 }
 
 .colorfulO, .colorfulP {
-  background-color: rgb(0, 191, 255);
+  background-color: rgb(102, 217, 255);
 }
 
 .colorfulQ {
-  background-color: rgb(37, 99, 65);
+  background-color: rgb(0, 99, 67);
 }
 
 .colorfulR, .colorfulS {
-  background-color: rgb(252, 164, 190);
+  background-color: rgb(270, 170, 190);
 }
 
 .colorfulT {
-  background-color: rgb(37, 99, 65);
+  background-color: rgb(0, 99, 67);
 }
 
 .colorfulU, .colorfulV {
-  background-color: rgb(255, 132, 0);
+  background-color: rgb(255, 111, 0);;
 }
 
 .colorfulW {
-  background-color: rgb(37, 99, 65);
+  background-color: rgb(0, 99, 67);
 }
 
