@@ -7,7 +7,7 @@ import "../styling/singlePage.css";
 const SinglePage = () => {
     return (
         <div className="single-container"> 
-            <div className="single-black-background"> </div>
+            <div className="single-background"> </div>
             <div className="single-white-background"> </div>
             <div className="projects-scroll"> </div>
             <div className="single-projects"> 
