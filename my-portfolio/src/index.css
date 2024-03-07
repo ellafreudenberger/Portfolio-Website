@@ -310,7 +310,7 @@ body {
 }
 
 .flash {
-  animation: flashAnimation 4s ease 1;
+  animation: flashAnimation 3s ease 1;
 }
 
 @keyframes flashAnimation {
@@ -593,7 +593,7 @@ body {
 }
 
 .flash {
-  animation: flashAnimation 4s ease 1;
+  animation: flashAnimation 3s ease 1;
 }
 
 @keyframes flashAnimation {
