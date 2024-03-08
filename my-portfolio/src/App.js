@@ -27,9 +27,9 @@ const App = () => {
     <div>
       <PortfolioNav singlePageMode={singlePageMode} /> {/* Pass singlePageMode as prop */}
       <Routes>
-        <Route path="/" element={<Home handleWatering={handleWatering} watered={watered} />} />
-        <Route path="/work" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Portfolio-Website" element={<Home handleWatering={handleWatering} watered={watered} />} />
+        <Route path="/Portfolio-Website/work" element={<Projects />} />
+        <Route path="/Portfolio-Website/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       
