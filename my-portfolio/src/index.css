@@ -727,17 +727,16 @@ height: 100px;
   }
 }
 
-@media (max-width: 300px) and (max-height: 700px) {
-  
+@media (max-width: 800px) {
+
   .contact-black-background {
-    height: 87%;
+    height: 70%;
   }
 
   .contact-links {
-    margin-top: 195%;
+    margin-top: 550px;
     overflow: scroll;
   }
-
 
 }
 
@@ -790,5 +789,13 @@ height: 100px;
 
 .colorfulW {
   background-color: rgb(4, 131, 91);
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    overflow-x: hidden; 
+    overflow-y: auto; 
+  }
+
 }
 
