@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "../styling/nav.css";
+import { Link } from 'react-router-dom';
 
 function PortfolioNav({ singlePageMode }) {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -49,9 +50,9 @@ function PortfolioNav({ singlePageMode }) {
                     </>
                 ) : (
                     <>
-                        <li><a href="/Portfolio-Website">home</a></li>
-                        <li><a href="/Portfolio-Website/work">work</a></li>
-                        <li><a href="/Portfolio-Website/contact">contact</a></li>
+                        <li><Link to="/">home</Link></li>
+                        <li><Link to="/work">work</Link></li>
+                        <li><Link to="/contact">contact</Link></li>
                     </>
                 )}
             </ul>
