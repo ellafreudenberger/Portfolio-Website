@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; 
 import "../styling/nav.css";
 
 function PortfolioNav({ singlePageMode }) {
@@ -49,9 +50,9 @@ function PortfolioNav({ singlePageMode }) {
                     </>
                 ) : (
                     <>
-                        <li><a href="/">home</a></li>
-                        <li><a href="/work">work</a></li>
-                        <li><a href="/contact">contact</a></li>
+                        <li><Link to="/">home</Link></li>
+                        <li><Link to="/work">work</Link></li>
+                        <li><Link to="/contact">contact</Link></li>
                     </>
                 )}
             </ul>
