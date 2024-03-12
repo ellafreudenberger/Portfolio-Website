@@ -16,3 +16,4 @@ https://ellafreudenberger.github.io/Portfolio-Website/
 - Single page and multiple page modes
 - Projects section displaying my work
 - Contact section with contact information and form
+- Phone version
