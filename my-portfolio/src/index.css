@@ -792,6 +792,38 @@ background-color: rgb(4, 131, 91);
 @media (max-width: 480px) {
 
   .personal-background {
+    margin-top: -750px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  .blue-background {
+    margin-top: 540px;
+    height: 750px;
+  }
+
+}
+
+@media (max-width: 401px) {
+
+  .personal-background {
+    margin-top: -810px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  .blue-background {
+    margin-top: 540px;
+    height: 810px;
+  }
+
+}
+
+@media (max-width: 371px) {
+
+  .personal-background {
     margin-top: -870px;
     margin-left: 10px;
     margin-right: 10px;
@@ -803,8 +835,26 @@ background-color: rgb(4, 131, 91);
     height: 870px;
   }
 
+}
+
+@media (max-width: 430px) {
+
   .footer {
-    margin-left: -250%;
+    margin-left: -280%;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .footer {
+    margin-left: -270%;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .footer {
+    margin-left: -320%;
   }
 }
 
