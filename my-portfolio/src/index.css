@@ -792,15 +792,15 @@ background-color: rgb(4, 131, 91);
 @media (max-width: 480px) {
 
   .personal-background {
-    margin-top: -500px;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 12px;
+    margin-top: -870px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
   }
 
   .blue-background {
     margin-top: 540px;
-    height: 500px;
+    height: 870px;
   }
 
   .footer {
@@ -819,6 +819,13 @@ background-color: rgb(4, 131, 91);
 
   .footer {
     margin-left: -330%;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .footer {
+    margin-left: -340%;
   }
 }
 
