@@ -13,7 +13,7 @@ const SinglePage = () => {
             <div className="single-projects"> 
                 <Projects /> 
             </div>
-            <div id="contact" className="single-contact"> {/* Add id="contact" */}
+            <div className="single-contact"> 
                 <Contact />
             </div>
         </div>
