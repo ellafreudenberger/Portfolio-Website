@@ -1,656 +1,656 @@
 body { 
-    /*cursor: url(./cursor/paint.png), auto; */
-    margin: 0; /* Fix nav border */
-    padding: 0; /* Fix nav border */
-    position: relative; /* Ensure positioning context for absolute positioning */
+  /*cursor: url(./cursor/paint.png), auto; */
+  margin: 0; /* Fix nav border */
+  padding: 0; /* Fix nav border */
+  position: relative; /* Ensure positioning context for absolute positioning */
 }
 
 .footer {
-  bottom: 0;
-  width: 100%;
-  position: relative;
-  margin-top: 10%;
+bottom: 0;
+width: 100%;
+position: relative;
+margin-top: 10%;
 }
 
 
 .black-background {
-  background-color: black;
-  position: fixed;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  z-index: -1; /* Ensure it's behind other content */
+background-color: black;
+position: fixed;
+top: 50%;
+left: 0;
+width: 100%;
+height: 50%;
+z-index: -1; /* Ensure it's behind other content */
 }
 
 .hidden {
-  display: none;
+display: none;
 }
 
 .invert-on-black {
-  filter: invert(10%);
+filter: invert(10%);
 }
 
 .shape {
-  position: absolute;
+position: absolute;
 }
 
 .circleA {
-  width: 30px; 
-  height: 30px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 500px; 
-  left: 100px; 
+width: 30px; 
+height: 30px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 500px; 
+left: 100px; 
 }
 
 .ovalA {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 490px; 
-  left: 135px; 
-  transform: rotate(160deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 490px; 
+left: 135px; 
+transform: rotate(160deg);
 }
 
 .ovalB {
-  width: 50px;
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 540px; 
-  left: 120px; 
-  transform: rotate(45deg);
+width: 50px;
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 540px; 
+left: 120px; 
+transform: rotate(45deg);
 }
 
 .ovalC {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 540px; 
-  left: 60px;
-  transform: rotate(-45deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 540px; 
+left: 60px;
+transform: rotate(-45deg);
 }
 
 .ovalD {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 485px; 
-  left: 50px; 
-  transform: rotate(30deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 485px; 
+left: 50px; 
+transform: rotate(30deg);
 }
 
 .ovalE {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 460px; 
-  left: 100px; 
-  transform: rotate(105deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 460px; 
+left: 100px; 
+transform: rotate(105deg);
 }
 
 .rectangleA {
-  width: 5px; 
-  height: 175px; 
-  background-color: black;
-  position: absolute;
-  top: 535px;
-  left: 112px; 
+width: 5px; 
+height: 175px; 
+background-color: black;
+position: absolute;
+top: 535px;
+left: 112px; 
 }
 
 .circleB {
-  width: 30px; 
-  height: 30px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 500px; 
-  left: 1300px;
+width: 30px; 
+height: 30px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 500px; 
+left: 1300px;
 }
 
 .ovalF {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 490px; 
-  left: 1335px;
-  transform: rotate(160deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 490px; 
+left: 1335px;
+transform: rotate(160deg);
 }
 
 .ovalG {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 540px; 
-  left: 1320px;
-  transform: rotate(45deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 540px; 
+left: 1320px;
+transform: rotate(45deg);
 }
 
 .ovalH {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 540px; 
-  left: 1260px; 
-  transform: rotate(-45deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 540px; 
+left: 1260px; 
+transform: rotate(-45deg);
 }
 
 .ovalI {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 485px; 
-  left: 1250px;
-  transform: rotate(30deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 485px; 
+left: 1250px;
+transform: rotate(30deg);
 }
 
 .ovalJ {
-  width: 50px; 
-  height: 20px; 
-  border-radius: 50%; /* Make it a circle */
-  background-color: black;
-  top: 460px; 
-  left: 1300px; 
-  transform: rotate(105deg);
+width: 50px; 
+height: 20px; 
+border-radius: 50%; /* Make it a circle */
+background-color: black;
+top: 460px; 
+left: 1300px; 
+transform: rotate(105deg);
 }
 
 .rectangleB {
-  width: 5px; 
-  height: 175px; 
-  background-color: black; 
-  position: absolute; 
-  top: 535px; 
-  left: 1315px; 
+width: 5px; 
+height: 175px; 
+background-color: black; 
+position: absolute; 
+top: 535px; 
+left: 1315px; 
 }
 
 .rounded-squareA {
-  width: 75px; 
-  height: 175px; 
-  background-color: black; 
-  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
-  border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
-  border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
-  border-top-left-radius: 0;
-  top: 300px;
-  left: 400px;
+width: 75px; 
+height: 175px; 
+background-color: black; 
+border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
+border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
+border-top-left-radius: 0;
+top: 300px;
+left: 400px;
 }
 
 .rounded-squareB {
-  width: 75px; 
-  height: 175px; 
-  background-color: black; 
-  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
-  border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
-  border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
-  border-top-right-radius: 0;
-  top: 300px;
-  left: 479px;
+width: 75px; 
+height: 175px; 
+background-color: black; 
+border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
+border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
+border-top-right-radius: 0;
+top: 300px;
+left: 479px;
 }
 
 .rectangleC {
-  width: 5px; 
-  height: 230px; 
-  background-color: black; 
-  position: absolute; 
-  top: 480px; 
-  left: 475px; 
+width: 5px; 
+height: 230px; 
+background-color: black; 
+position: absolute; 
+top: 480px; 
+left: 475px; 
 }
 
 .rounded-squareC {
-  width: 75px; 
-  height: 175px; 
-  background-color: black; 
-  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
-  border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
-  border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
-  border-top-left-radius: 0;
-  top: 300px;
-  left: 900px;
+width: 75px; 
+height: 175px; 
+background-color: black; 
+border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
+border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
+border-top-left-radius: 0;
+top: 300px;
+left: 900px;
 }
 
 .rounded-squareD {
-  width: 75px; 
-  height: 175px; 
-  background-color: black; 
-  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
-  border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
-  border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
-  border-top-right-radius: 0;
-  top: 300px;
-  left: 979px;
+width: 75px; 
+height: 175px; 
+background-color: black; 
+border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
+border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
+border-top-right-radius: 0;
+top: 300px;
+left: 979px;
 }
 
 .rectangleD {
-  width: 5px; 
-  height: 230px; 
-  background-color: black; 
-  position: absolute; 
-  top: 480px; 
-  left: 975px; 
+width: 5px; 
+height: 230px; 
+background-color: black; 
+position: absolute; 
+top: 480px; 
+left: 975px; 
 }
 
 .rounded-squareE {
-  width: 100px; 
-  height: 280px; 
-  background-color: black; 
-  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
-  border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
-  border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
-  border-top-left-radius: 0;
-  top: 80px;
-  left: 650px;
+width: 100px; 
+height: 280px; 
+background-color: black; 
+border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+border-bottom-left-radius: 30; /* Set the bottom left corner to be square */
+border-bottom-right-radius: 0; /* Set the bottom right corner to be square */
+border-top-left-radius: 0;
+top: 80px;
+left: 650px;
 }
 
 .rounded-squareF {
-  width: 100px; 
-  height: 280px; 
-  background-color: black; 
-  border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
-  border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
-  border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
-  border-top-right-radius: 0;
-  top: 80px;
-  left: 759px;
+width: 100px; 
+height: 280px; 
+background-color: black; 
+border-radius: 50px; /* Adjust border-radius to control the roundness of corners */
+border-bottom-left-radius: 0; /* Set the bottom left corner to be square */
+border-bottom-right-radius: 30; /* Set the bottom right corner to be square */
+border-top-right-radius: 0;
+top: 80px;
+left: 759px;
 }
 
 .rectangleE {
-  width: 7px; 
-  height: 345px; 
-  background-color: black; 
-  position: absolute; 
-  top: 365px; 
-  left: 751px; 
+width: 7px; 
+height: 345px; 
+background-color: black; 
+position: absolute; 
+top: 365px; 
+left: 751px; 
 }
 
 .home-page {
-  position: relative;
-  display: flex;
-  flex-direction: column; /* Display children in a column */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+position: relative;
+display: flex;
+flex-direction: column; /* Display children in a column */
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
 }
 
 .about-me {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: left;
-  justify-content: center;
-  margin-right: 40%;
-  margin-left: 100px;
-  line-height: 1.7;
-  margin-top: 90px;
-  margin-bottom: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+font-size: 40px;
+text-align: left;
+justify-content: center;
+margin-right: 40%;
+margin-left: 100px;
+line-height: 1.7;
+margin-top: 90px;
+margin-bottom: 20px;
 }
 
 .highlight {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 800;
-  font-size: 60px;
-  text-align: left;
-  justify-content: center;
-  line-height: 0.8;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 800;
+font-size: 60px;
+text-align: left;
+justify-content: center;
+line-height: 0.8;
 }
 
 .about-me .highlight:hover {
-  background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
-  background-size: 120% auto;
-  -webkit-background-clip: text; /* Apply gradient to text only */
-  background-clip: text; /* Apply gradient to text only */
-  color: transparent; /* Hide text color */
-  text-shadow: 0 0 5px (255, 255, 255, 0.5);
+background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+background-size: 120% auto;
+-webkit-background-clip: text; /* Apply gradient to text only */
+background-clip: text; /* Apply gradient to text only */
+color: transparent; /* Hide text color */
+text-shadow: 0 0 5px (255, 255, 255, 0.5);
 }
 
 /* .flash {
-  animation: flashAnimation 3s ease 1;
+animation: flashAnimation 3s ease 1;
 } */
 
 /* @keyframes flashAnimation {
-  from {
-   background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
-  /*  background-size: 120% auto;
-    -webkit-background-clip: text; /* Apply gradient to text only */
-  /*  background-clip: text; /* Apply gradient to text only */
-  /*  color: transparent; /* Hide text color */
-  /*  text-shadow: 0 0 5px (255, 255, 255, 0.5);
-    opacity: 0;
-  } 
-  to {
-    background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
-  /*  background-size: 120% auto;
-    -webkit-background-clip: text; /* Apply gradient to text only */
-  /*  background-clip: text; /* Apply gradient to text only */
-  /*  color: transparent; /* Hide text color */
-  /*  text-shadow: 0 0 5px (255, 255, 255, 0.5);
-  }
+from {
+ background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+/*  background-size: 120% auto;
+  -webkit-background-clip: text; /* Apply gradient to text only */
+/*  background-clip: text; /* Apply gradient to text only */
+/*  color: transparent; /* Hide text color */
+/*  text-shadow: 0 0 5px (255, 255, 255, 0.5);
+  opacity: 0;
+} 
+to {
+  background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+/*  background-size: 120% auto;
+  -webkit-background-clip: text; /* Apply gradient to text only */
+/*  background-clip: text; /* Apply gradient to text only */
+/*  color: transparent; /* Hide text color */
+/*  text-shadow: 0 0 5px (255, 255, 255, 0.5);
+}
 } 
 */
 
 body {
-  overflow-x: hidden;
+overflow-x: hidden;
 }
 
 /* Projects Page */
 
 .work-background {
-  background-image: url('./images/pink-flower.jpg');
-  height: 900px;
-  width: 100%;
-  background-position: center; 
-  margin-top: 113px;
-  display: flex;
-  justify-content: center; /* Horizontally center content */
-  align-items: center; /* Vertically center content */
+background-image: url('./images/pink-flower.jpg');
+height: 900px;
+width: 100%;
+background-position: center; 
+margin-top: 113px;
+display: flex;
+justify-content: center; /* Horizontally center content */
+align-items: center; /* Vertically center content */
 }
 
 .Playdates-title-container {
-  height: 50%; 
-  width: 60%; 
-  background-color: pink;
-  display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
-  justify-content: center;
-  align-items: center; /* Vertically center content */
-  text-decoration: none; 
-  flex-direction: column;
-  margin-left: 10%; /* Center horizontally */
-  margin-right: auto; /* Center horizontally */
+height: 50%; 
+width: 60%; 
+background-color: pink;
+display: flex;
+padding-left: 5%;
+padding-right: 5%;
+justify-content: center;
+align-items: center; /* Vertically center content */
+text-decoration: none; 
+flex-direction: column;
+margin-left: 10%; /* Center horizontally */
+margin-right: auto; /* Center horizontally */
 }
 
 .Playdates-title {
-  margin-top: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: rgb(49, 12, 12);
-  font-size: 50px;
-  animation: moveBottom 1s 1;
+margin-top: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(49, 12, 12);
+font-size: 50px;
+animation: moveBottom 1s 1;
 }
 
 @keyframes moveBottom {
-  from {
-    transform: translateY(20px);
-  }
-  to {
-    transform: translateY(0px); 
-  }
+from {
+  transform: translateY(20px);
+}
+to {
+  transform: translateY(0px); 
+}
 }
 
 
 .Playdates-link {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 25px;
-  color: rgb(49, 12, 12);
-  text-decoration: none; 
-  margin-top: -10px;
-  animation: moveBottom 1s 1;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 25px;
+color: rgb(49, 12, 12);
+text-decoration: none; 
+margin-top: -10px;
+animation: moveBottom 1s 1;
 }
 
 
 
 .Playdates-link:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 .Playdates-description {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: rgb(49, 12, 12);
-  font-size: 20px;
-  height: 50%; 
-  width: 60%; 
-  background-color: pink;
-  padding-right: 5%;
-  display: flex;
-  justify-content: left; /* Horizontally center content */
-  align-items: center; /* Vertically center content */
-  margin-right: 10%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(49, 12, 12);
+font-size: 20px;
+height: 50%; 
+width: 60%; 
+background-color: pink;
+padding-right: 5%;
+display: flex;
+justify-content: left; /* Horizontally center content */
+align-items: center; /* Vertically center content */
+margin-right: 10%;
 }
 
 .work-picture-description {
-  display: flex;
-  justify-content: flex-end;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: black;
-  font-size: 10px;
-  padding: 5px;
-  background-color: white;
+display: flex;
+justify-content: flex-end;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: black;
+font-size: 10px;
+padding: 5px;
+background-color: white;
 }
 
 .work-picture-description a:visited {
-  color: black; /* Set the color to black for visited links */
+color: black; /* Set the color to black for visited links */
 }
 
 .Github {
-  display: flex;
-  justify-content: center;
-  color: black;
-  text-decoration: none;
-  align-items: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: pink;
-  padding: 10%;
-  font-size: 20px;
+display: flex;
+justify-content: center;
+color: black;
+text-decoration: none;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: pink;
+padding: 10%;
+font-size: 20px;
 }
 
 /* Error Page */
 
 .errorPageTitle {
-  display: flex;
-  position: relative;
-  margin-left: 20%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-top: 200px;
+display: flex;
+position: relative;
+margin-left: 20%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: 200px;
 }
 
 .errorPage {
-  display: flex;
-  position: relative;
-  margin-left: 20%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-top: 80px;
+display: flex;
+position: relative;
+margin-left: 20%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: 80px;
 }
 
 /* Contact Page */
 
 .contact-background {
-  background-image: url('./images/blue-flower.jpg');
-  height: 550px;
-  margin-top: 25px;
-  background-size: 100% auto;
+background-image: url('./images/blue-flower.jpg');
+height: 550px;
+margin-top: 25px;
+background-size: 100% auto;
 }
 
 .contact-links {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  margin-top: 75px;
-  margin-left: 5%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 25px;
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin-top: 75px;
+margin-left: 5%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 25px;
 }
- 
+
 .LinkedIn,
 .Email {
-  margin-right: 5%;
-  color: black;
-  text-decoration: none;
+margin-right: 5%;
+color: black;
+text-decoration: none;
 }
 
 .contact-picture-description {
-  display: flex;
-  justify-content: flex-end;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: black;
-  margin: 5px;
-  font-size: 10px;
+display: flex;
+justify-content: flex-end;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: black;
+margin: 5px;
+font-size: 10px;
 }
 
 .contact-picture-description a:visited {
-  color: black; 
+color: black; 
 }
 
 .contact-links a:visited {
-  color: black; 
+color: black; 
 }
 
 .personal-background {
-  display: flex;
-  position: relative;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-top: -1050px;
-  margin-left: 250px;
-  margin-right: 250px;
-  font-size: 30px;
-  text-align: center;
-  justify-content: center;
-  font-weight: 600;
-  color: black;
-  animation: moveBottom 1s 1;
+display: flex;
+position: relative;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: -1050px;
+margin-left: 250px;
+margin-right: 250px;
+font-size: 30px;
+text-align: center;
+justify-content: center;
+font-weight: 600;
+color: black;
+animation: moveBottom 1s 1;
 }
 
 @keyframes moveBottom {
-  from {
-    transform: translateY(100px);
-  }
-  to {
-    transform: translateY(0px); /* Adjust the distance you want to move */
-  }
+from {
+  transform: translateY(100px);
+}
+to {
+  transform: translateY(0px); /* Adjust the distance you want to move */
+}
 }
 
 .blue-background {
-  z-index: -3;
-  height: 1200px;
-  background-color: rgb(212, 240, 247);
+z-index: -3;
+height: 1200px;
+background-color: rgb(212, 240, 247);
 }
 
 @media (max-width: 900px) {
-  .about-me {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    text-align: left;
-    justify-content: center;
-    margin-right: 30%;
-    margin-left: 50px;
-    margin-top: 580px;
- }
+.about-me {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  justify-content: center;
+  margin-right: 30%;
+  margin-left: 50px;
+  margin-top: 580px;
+}
 
 
 .highlight {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 800;
-  font-size: 40px;
-  text-align: left;
-  justify-content: center;
-  line-height: 0.8;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 800;
+font-size: 40px;
+text-align: left;
+justify-content: center;
+line-height: 0.8;
 }
 
 .footer {
-  margin-top: 0%;
-  margin-left: 10%;
+margin-top: 0%;
+margin-left: 10%;
 }
 
 body {
-  overflow-x: hidden;
+overflow-x: hidden;
 }
 
 .black-background {
-    background-color: white;
-    position: fixed;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    z-index: -2; /* Ensure it's behind other content */
-  }
-
-.white-background {
-  background-color: black;
+  background-color: white;
   position: fixed;
-  top: 0;
+  top: 50%;
   left: 0;
   width: 100%;
-  height: 83%;
-  z-index: -1;
+  height: 50%;
+  z-index: -2; /* Ensure it's behind other content */
+}
+
+.white-background {
+background-color: black;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 83%;
+z-index: -1;
 }
 
 .invert-on-black {
-  filter: invert(95%);
+filter: invert(95%);
 }
 
 .about-me .highlight:hover {
-  background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
-  background-size: 150% auto;
-  -webkit-background-clip: text; /* Apply gradient to text only */
-  background-clip: text; /* Apply gradient to text only */
-  color: transparent; /* Hide text color */
-  text-shadow: 0px 0px 0px (255, 255, 255, 0.5);
+background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+background-size: 150% auto;
+-webkit-background-clip: text; /* Apply gradient to text only */
+background-clip: text; /* Apply gradient to text only */
+color: transparent; /* Hide text color */
+text-shadow: 0px 0px 0px (255, 255, 255, 0.5);
 }
 
 /*.flash {
-  animation: flashAnimation 3s ease 1;
+animation: flashAnimation 3s ease 1;
 }
 
 @keyframes flashAnimation {
-  from {
-    background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
- /* background-size: 150% auto;
-  -webkit-background-clip: text; /* Apply gradient to text only */
- /* background-clip: text; /* Apply gradient to text only */
- /* color: transparent; /* Hide text color */
- /* text-shadow: 0px 0px 0px (255, 255, 255, 0.5);
-    opacity: 0;
-  }
-  to {
-    background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
- /* background-size: 150% auto;
-  -webkit-background-clip: text; /* Apply gradient to text only */
- /* background-clip: text; /* Apply gradient to text only */
- /* color: transparent; /* Hide text color */
- /* text-shadow: 0px 0px 0px (255, 255, 255, 0.5);
-  }
+from {
+  background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+/* background-size: 150% auto;
+-webkit-background-clip: text; /* Apply gradient to text only */
+/* background-clip: text; /* Apply gradient to text only */
+/* color: transparent; /* Hide text color */
+/* text-shadow: 0px 0px 0px (255, 255, 255, 0.5);
+  opacity: 0;
+}
+to {
+  background-image: linear-gradient(to right, rgb(255, 80, 80), pink, rgb(255, 153, 0), rgb(37, 99, 65), rgb(21, 181, 255), rgb(45, 2, 69), rgb(212, 83, 104)); /* Rainbow gradient */
+/* background-size: 150% auto;
+-webkit-background-clip: text; /* Apply gradient to text only */
+/* background-clip: text; /* Apply gradient to text only */
+/* color: transparent; /* Hide text color */
+/* text-shadow: 0px 0px 0px (255, 255, 255, 0.5);
+}
 } */
 
 
 /* Work Page */
 
 .work-background {
-  margin-top: 59%;
+margin-top: 59%;
 }
 
 /* Contact Page */
 
 .contact-links {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  margin-top: 600px;
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin-top: 600px;
 }
 
 .contact-background {
-  background-image: url('./images/blue-flower.jpg');
-  height: 200px;
-  margin-top: 25px;
-  background-size: 100% auto;
+background-image: url('./images/blue-flower.jpg');
+height: 200px;
+margin-top: 25px;
+background-size: 100% auto;
 }
 
 .contact-black-background {
-  background-color: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 570px;
-  z-index: -2; /* Ensure it's behind other content */
+background-color: black;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 570px;
+z-index: -2; /* Ensure it's behind other content */
 }
 
 .blue-background {
@@ -658,52 +658,52 @@ margin-top: 495px;
 }
 
 .personal-background {
-  z-index: 50;
+z-index: 50;
 }
 }
 
 
 @media (max-width: 700px) {
 
-  /* Projects Page */
+/* Projects Page */
 
-  .work-background {
-    display: flex;
-    flex-direction: column;
-  }
-  .Playdates-title-container {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 11%;
-    justify-content: flex-start;
-    padding-top: 5%;
-  }
+.work-background {
+  display: flex;
+  flex-direction: column;
+}
+.Playdates-title-container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 11%;
+  justify-content: flex-start;
+  padding-top: 5%;
+}
 
-  .Playdates-description {
-    margin-top: -60%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 30%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: -15px;
-    justify-content: center;
-  }
+.Playdates-description {
+  margin-top: -60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: -15px;
+  justify-content: center;
+}
 
 .Playdates-link {
-  margin-top: -15px;
+margin-top: -15px;
 }
 }
 
 @media (max-width: 400px) {
 
 .Playdates-title { 
-  font-size: 40px;
+font-size: 40px;
 } 
 
 .Playdates-description {
-  font-size: 15px;
-  margin-top: -45px;
+font-size: 15px;
+margin-top: -45px;
 }
 
 .Playdates-title-container {
@@ -711,97 +711,92 @@ height: 100px;
 }
 
 .Playdates-link {
-  text-decoration: underline;
+text-decoration: underline;
 }
 }
 
 
 @media (max-width: 900px) and (max-height: 700px) {
 
-  .contact-links {
-    margin-top: 70%;
-    overflow: scroll;
-  }
+.contact-links {
+  margin-top: 70%;
+  overflow: scroll;
+}
 
-  .contact-black-background {
-    height: 70%;
-  }
+.contact-black-background {
+  height: 70%;
+}
 
-  .personal-background {
-    margin-top: 70%;
-  }
 }
 
 @media (max-width: 800px) {
 
-  .contact-black-background {
-    height: 70%;
-  }
+.contact-black-background {
+  height: 70%;
+}
 
-  .contact-links {
-    margin-top: 550px;
-    overflow: scroll;
-  }
+.contact-links {
+  margin-top: 550px;
+  overflow: scroll;
+}
 
-   
 }
 
 /* watered state */
 
 .colorfulA {
-  background-color: purple;
+background-color: purple;
 
 }
 
 .colorfulB, .colorfulC, .colorfulD, .colorfulE, .colorfulF {
-  background-color: rgb(251, 54, 0);
+background-color: rgb(251, 54, 0);
 }
 
 .colorfulG {
-  background-color: rgb(4, 131, 91);
+background-color: rgb(4, 131, 91);
 }
 
 .colorfulH {
- background-color: purple;
+background-color: purple;
 }
 
 .colorfulI, .colorfulJ, .colorfulK, .colorfulL, .colorfulM {
-  background-color: rgb(251, 54, 0);
+background-color: rgb(251, 54, 0);
 } 
 
 .colorfulN {
-  background-color: rgb(4, 131, 91);
+background-color: rgb(4, 131, 91);
 }
 
 .colorfulO, .colorfulP {
-  background-color: rgb(86, 215, 254);
+background-color: rgb(86, 215, 254);
 }
 
 .colorfulQ {
-  background-color: rgb(4, 131, 91);
+background-color: rgb(4, 131, 91);
 }
 
 .colorfulR, .colorfulS {
-  background-color: rgb(270, 170, 190);
+background-color: rgb(270, 170, 190);
 }
 
 .colorfulT {
-  background-color: rgb(4, 131, 91);
+background-color: rgb(4, 131, 91);
 }
 
 .colorfulU, .colorfulV {
-  background-color: rgb(255, 111, 0);
+background-color: rgb(255, 111, 0);
 }
 
 .colorfulW {
-  background-color: rgb(4, 131, 91);
+background-color: rgb(4, 131, 91);
 }
 
 @media only screen and (max-width: 600px) {
-  .shape-container {
-    overflow-x: hidden; 
-    overflow-y: auto; 
-  }
-
+.shape-container {
+  overflow-x: hidden; 
+  overflow-y: auto; 
 }
 
+}
