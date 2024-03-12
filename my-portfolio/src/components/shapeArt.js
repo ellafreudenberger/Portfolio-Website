@@ -49,7 +49,6 @@ const ShapeArt = ({ watered, singlePageMode}) => {
              <div className={`shape rounded-squareD ${watered ? 'colorfulS' : ''}`} style={divStyle}></div> 
              <div className={`shape rectangleD ${watered ? 'colorfulT' : ''}`} style={divStyle}></div> 
 
-             
               {/* Tulip 3 */}  
              <div className={`shape rounded-squareE ${watered ? 'colorfulU' : ''}`} style={divStyle}></div>  
              <div className={`shape rounded-squareF ${watered ? 'colorfulV' : ''}`} style={divStyle}></div> 
