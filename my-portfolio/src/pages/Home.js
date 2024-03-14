@@ -6,7 +6,7 @@ export const Home = ({ handleWatering, watered, singlePageMode }) => {
   return (
     <div className="home-page"> 
       <p className="about-me invert-on-black flash">
-        Hey there! My name is Ella. I'm a full stack software engineer based in New York City. <br /><br /><br />
+        Hey there! My name is Ella. I'm a full stack software engineer and product developer based in New York City. <br /><br /><br />
         I <span className="highlight">transform</span> brands, <span className="highlight">cultivate</span> new connections, and <span className="highlight">grow</span> vibrant communities online.
       </p>
       <div className="watering-can invert-on-black">

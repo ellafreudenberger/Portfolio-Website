@@ -6,7 +6,7 @@ export const Contact = () => {
     <div>
     <div id="contact" className="blue-background"></div> {/* Add id="contact" */}
     <div className="personal-background">
-    <p>In 2020, I graduated from NYU Gallatin's School of Individualized Study with a B.A. in Entertainment Public Relations & Multimedia Communications. Building on this foundation, I furthered my education by completing a software development professional certificate program at NYU's School of Professional Studies this past December of 2023. <br /><br />Throughout my academic and professional endeavors, my passion for multimedia arts, digital storytelling and brand development has only grown. If you are interested in working together or have any additional inquiries, please contact me at eliana.freudenberger@gmail.com.</p>
+    <p>In 2020, I graduated from NYU Gallatin's School of Individualized Study with a B.A. in Entertainment Public Relations & Multimedia Communications. Building on this foundation, I furthered my education by completing a software development professional certificate program at NYU's School of Professional Studies this past December of 2023. <br /><br />Throughout my academic and professional endeavors, my passion for multimedia arts, digital storytelling, and brand development has only grown. If you are interested in working together or have any additional inquiries, please contact me at eliana.freudenberger@gmail.com.</p>
     </div>
     <div className='contact-black-background'></div>
       <div className='contact-links'>
