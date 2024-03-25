@@ -883,6 +883,18 @@ background-color: rgb(4, 131, 91);
   .footer {
     margin-left: -280%;
   }
+
+  .ella-picture {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-top: 20px;
+    height: 400px;
+    margin-left: auto; /* Add this to center horizontally */
+    margin-right: auto; /* Add this to center horizontally */
+    margin-bottom: 50px;
+    }
+  
 }
 
 @media (max-width: 420px) {
