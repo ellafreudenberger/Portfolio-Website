@@ -368,6 +368,22 @@ overflow-x: hidden;
   margin-right: 50%;
 }
 
+@media (min-width: 1000px) {
+.ella-picture2 {
+  margin-top: 70px;
+  width: 500px;
+  margin-left: 50%;
+}
+
+.ella-picture1 {
+  width: 500px;
+  margin-top: -667px;
+  margin-right: 500px;
+  margin-bottom: 150px;
+  margin-right: 50%;
+}
+}
+
 /* Projects Page */
 
 .work-background {
