@@ -888,7 +888,7 @@ background-color: rgb(4, 131, 91);
     display: flex; /* Use flexbox */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
-    margin-top: 5px;
+    margin-top: 10px;
     height: 200px;
     margin-left: auto; /* Add this to center horizontally */
     margin-right: auto; /* Add this to center horizontally */
