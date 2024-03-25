@@ -833,7 +833,7 @@ background-color: rgb(4, 131, 91);
 @media (max-width: 480px) {
 
   .personal-background {
-    margin-top: -1150px;
+    margin-top: -1300px;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
@@ -841,7 +841,7 @@ background-color: rgb(4, 131, 91);
 
   .blue-background {
     margin-top: 540px;
-    height: 1200px;
+    height: 1400px;
   }
 
   .ella-picture {
